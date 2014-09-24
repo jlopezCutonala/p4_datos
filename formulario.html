@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Ejemplo de HTML5" />
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Formulario</title>
+    </head>
+    <body>
+         <div>
+             <form action="procesa.php" method="GET">
+                 <fieldset>
+                    <input type="checkbox" name="p1" id="p1" value="1"> Programaci&oacute;n 1<br/>
+                    <input type="checkbox" name="p2" id="p2" value="2"> Programaci&oacute;n 2<br/>
+                    <input type="checkbox" name="p3" id="p3" value="3"> Programaci&oacute;n 3<br/>
+                    <br/>
+                    <label>Cual materia te gusta mas?</label><br/>
+                    <input type="radio" name="materia" id="m1" value="Programacion 1">
+                    Programaci&oacute;n 1<br/>
+                    <input type="radio" name="materia" id="m2" value="Programacion 2">
+                    Programaci&oacute;n 2<br/>
+                    <input type="radio" name="materia" id="m3" value="Programacion 3">
+                    Programaci&oacute;n 3<br/>
+                    <br/>
+                    <label for="txtColor">Color</label><br/>
+                    <select name="color" id="txtColor">
+                        <option value="#FF0000">Rojo</option>
+                        <option value="BLUE">Azul</option>
+                        <option value="GREEN">Verde</option>
+                        <option value="">Gris</option>
+                    </select>
+                    <br/>
+                    <br/>
+                    <label for="txtNumero1">Multiplicacion</label><br/>
+                    <input type="text" size="40" maxlength="255" id="txtNumero1" name="numero1" /> * <input type="text" size="40" maxlength="255" id="txtNumero2" name="numero2" />
+                    <br/>
+                    <br/>
+                 </fieldset>
+                 <input type="submit" name="enviar" value="Guardar" />
+             </form>
+         </div>
+    </body>
+</html>
